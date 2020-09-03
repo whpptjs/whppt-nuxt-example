@@ -7,7 +7,9 @@
     data-whitelist="
       wRichText,
       wSplitContent,
-      ImageNavigation
+      ImageNavigation,
+      FeatureBlock,
+      FeatureBlock2
     "
   >
     <component
