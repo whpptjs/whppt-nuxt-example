@@ -1,6 +1,9 @@
 // import Research from '../components/page/whpptResearch/plugin';
 // import GenericPage from '../../nuxt/components/lib/systemPlugins/GenericPagePlugin';
 // import OtherGenericPage from '../../nuxt/components/lib/systemPlugins/OtherGenericPagePlugin';
+
+import Sitemap from '~/components/sitemap/plugin';
+
 export default ({ app }) => {
   // const genericPage = GenericPage({
   //   templates: [
@@ -37,6 +40,7 @@ export default ({ app }) => {
   // });
   app.$whppt.addPlugins({
     GenericPage: genericPage,
+    Sitemap,
     // OtherGenericPage: otherGenericPage,
     //   Research,
   });
